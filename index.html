@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Hassan Voyeau | Technology Blogger, Photographer and Generalist </title>
+    <meta name="author" content="Hassan Voyeau">
+    <meta name="description" content="Homepage">
+    <meta name="keywords" content="">
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+
+    <link rel="shortcut icon" href="favicon.ico" />
+</head>
+
+<style>
+    #photo {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        z-index: 1;
+    }
+
+    #profile {
+        position: absolute;
+        left: 0px;
+        bottom: 120px;
+        z-index: 2;
+        padding: 10px;
+    }
+
+    span {
+        background-color: #FFFFFF;
+    }
+
+    @media screen and (max-width: 850px) {
+        #profile {
+            top: 0px;
+        }
+    }
+</style>
+
+<body>
+    <div id="profile">
+        <h1>
+            <span>
+                HASSAN Voyeau
+            </span>
+        </h1>
+        <span>
+            Technology Blogger, Photographer and Generalist
+        </span>
+        <br />
+        <span>
+            Read my <a title="Technology blog" href="https://thetechremix.com/">Tech Blog</a>
+            and <a title="Photography blog" href="https://photos.hassantt.com/p/stories.html">Photo Blog</a>
+        </span>
+        <br />
+        <br />
+        <a href="https://twitter.com/hassan_theitguy" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+        <a href="https://www.facebook.com/thetechremix/" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
+        <a href="https://www.instagram.com/hassan.the.it.guy/" class="uk-icon-button  uk-margin-small-right" uk-icon="instagram"></a>
+        <a href="https://www.linkedin.com/in/hassantheitguy/" class="uk-icon-button  uk-margin-small-right" uk-icon="linkedin"></a>
+        <a href="https://github.com/hassan-theitguy" class="uk-icon-button  uk-margin-small-right" uk-icon="github"></a>
+        <a href="https://www.youtube.com/user/hassanvoyeau" class="uk-icon-button" uk-icon="youtube"></a>
+        <br/>
+        <br/>
+        <span>
+            Learn <a href="#modal-full" uk-toggle>more about me</a>
+        </span>
+    </div>
+    <img src="profile.png" id="photo" />
+
+    <div id="modal-full" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog" uk-overflow-auto>
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-padding-large" uk-height-viewport>
+                <h1>Hassan "The IT Guy"</h1>
+                <p>Check out my <a href="https://art.hassantt.com/">digital art</a> and my poetry, <a href="https://poems.hassantt.com/">showcase</a> and <a href="https://poems.hassantt.com/listing/">full listing</a>.
+                My <a href="https://www.behance.net/gallery/85294331/Wireframes">portfolio on Behance</a> includes some wireframes.
+                My style is to make things seem simple and comfortable.
+                Check out my completed <a href="https://photo365.hassantt.com/">photo365 project</a>.
+                I am trying to be more active <a href="https://stackoverflow.com/users/187519/hassan-voyeau">on StackOverflow</a>.
+                I am in the <a href="https://data.stackexchange.com/stackoverflow/query/53058/top-users-by-country">top 10 list for Trinidad</a>.
+                Please check out my <a href="https://hassan-theitguy.github.io/carib-techies/">Carib Techies project</a>.
+                I am a 7+ years Man City supporter.
+                I love walking and have recorded more than 2400km <a href="https://runkeeper.com/user/hassantheitguy/profile">on Runkeeper</a>.
+                I am sometimes answering questions <a href="https://www.quora.com/profile/Hassan-Voyeau-1">on Quora</a>.
+                I work from home at the moment but this is <a href="resume.pdf">my resume</a>.
+                Take a look at my project work at <a href="https://it.hassantt.com/">it.hassantt.com</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
